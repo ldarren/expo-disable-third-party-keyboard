@@ -1,7 +1,7 @@
 {
   "name": "expo-disable-third-party-keyboard",
   "version": "0.1.0",
-  "description": "Fix vulnerabilities",
+  "description": "This Expo Config Plugin helps enhance your app's security by disabling third-party keyboards, which could potentially pose a security risk.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,15 +12,15 @@
   },
   "keywords": [
     "expo",
-    "\"third",
-    "party",
-    "keyboard",
-    "disable\""
+    "third party keyboard disable"
   ],
   "author": "Darren Liew",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ldarren/expo-disable-third-party-keyboard/issues"
   },
-  "homepage": "https://github.com/ldarren/expo-disable-third-party-keyboard#readme"
+  "homepage": "https://github.com/ldarren/expo-disable-third-party-keyboard#readme",
+  "dependencies": {
+    "@expo/config-plugins": "^8.0.4"
+  }
 }
